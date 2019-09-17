@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include ./partials/head %>
+</head>
+
+<body>
+  <header>
+    <% include ./partials/header %>
+  </header>
+  <main>
+    <h1>Cars</h1>
+    <p><%= value %></p>
+    <pre><%= JSON.stringify(data, null, 2) %></pre>
+    <div id="app"></div>
+  </main>
+  <footer>
+    <% include ./partials/footer %>
+  </footer>
+  <% include ./partials/scripts %>
+</body>
+
+</html>

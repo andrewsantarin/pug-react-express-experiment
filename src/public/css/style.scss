@@ -1,0 +1,24 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ui.form input {
+  &:not([type]),
+  &[type="date"],
+  &[type="datetime-local"],
+  &[type="email"],
+  &[type="number"],
+  &[type="password"],
+  &[type="search"],
+  &[type="tel"],
+  &[type="time"],
+  &[type="text"],
+  &[type="file"],
+  &[type="url"] {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+#app {
+  background-color: red;
+}
